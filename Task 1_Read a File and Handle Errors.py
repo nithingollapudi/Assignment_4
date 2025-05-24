@@ -3,6 +3,6 @@ try:
     with open('sample.txt','r') as file:
         print("Reading file content:")
         for line in file:
-            print(line.strip())
+            print(line,end='')
 except FileNotFoundError:
     print("Error: The file 'sample.txt' was not found.")
