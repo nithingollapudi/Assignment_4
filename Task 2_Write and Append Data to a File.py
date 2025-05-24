@@ -8,7 +8,7 @@ file=open('output.txt','a')
 file.write(text_2 +'\n')
 file.close()
 print('Data successfully appended')
-print('\n Final content of output.txt')
+print('Final content of output.txt')
 file =open('output.txt','r')
 print(file.read())
 
